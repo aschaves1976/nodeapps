@@ -1,0 +1,347 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+PS C:\ASChaves\udemy\JavaScript\projects> nodemon start
+  Usage: nodemon [nodemon options] [script.js] [args]
+
+  See "nodemon --help" for more.
+
+
+
+   ╭─────────────────────────────────────────╮
+   │                                         │
+   │   Update available 1.14.11 → 1.18.10    │
+   │     Run npm i -g nodemon to update      │
+   │                                         │
+   ╰─────────────────────────────────────────╯
+
+PS C:\ASChaves\udemy\JavaScript\projects> yarn global upgrade nodemon
+yarn global v1.17.3
+warning package.json: No license field
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+[4/4] Rebuilding all packages...
+success Saved lockfile.
+success Saved 0 new dependencies.
+Done in 8.87s.
+PS C:\ASChaves\udemy\JavaScript\projects> cd node_modules
+PS C:\ASChaves\udemy\JavaScript\projects\node_modules> yarn global upgrade nodemon
+yarn global v1.17.3
+warning package.json: No license field
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+[4/4] Rebuilding all packages...
+success Saved lockfile.
+success Saved 0 new dependencies.
+Done in 1.11s.
+PS C:\ASChaves\udemy\JavaScript\projects\node_modules> nodemon start
+  Usage: nodemon [nodemon options] [script.js] [args]
+
+  See "nodemon --help" for more.
+
+
+
+   ╭───────────────────────────────────────╮
+   │                                       │
+   │   Update available 1.18.9 → 1.19.1    │
+   │    Run npm i -g nodemon to update     │
+   │                                       │
+   ╰───────────────────────────────────────╯
+
+PS C:\ASChaves\udemy\JavaScript\projects\nodeapps> nodemon start
+[nodemon] 1.18.9
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node start app.js`
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\ASChaves\udemy\JavaScript\projects\nodeapps\models/../config/config'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (C:\ASChaves\udemy\JavaScript\projects\nodeapps\models\index.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (C:\ASChaves\udemy\JavaScript\projects\nodeapps\routes\index.js:4:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (C:\ASChaves\udemy\JavaScript\projects\nodeapps\app.js:10:15)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+[nodemon] app crashed - waiting for file changes before starting...
+
+^CDeseja finalizar o arquivo em lotes (S/N)? s
+PS C:\ASChaves\udemy\JavaScript\projects\nodeapps> nodemon start
+[nodemon] 1.18.9
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node start app.js`
+C:\ASChaves\udemy\JavaScript\projects\nodeapps\types\user.js:4
+      name: {allowNull: false, DataTypes.STRING},
+                                        ^
+
+SyntaxError: Unexpected token .
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (C:\ASChaves\udemy\JavaScript\projects\nodeapps\models\user.js:1:19)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Sequelize.import (C:\ASChaves\udemy\JavaScript\projects\nodeapps\node_modules\sequelize\lib\sequelize.js:477:62)
+    at fs.readdirSync.filter.forEach.file (C:\ASChaves\udemy\JavaScript\projects\nodeapps\models\index.js:13:36)
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (C:\ASChaves\udemy\JavaScript\projects\nodeapps\models\index.js:12:4)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node start app.js`
+C:\ASChaves\udemy\JavaScript\projects\nodeapps\node_modules\sequelize\lib\associations\mixin.js:93
+      throw new Error(`${source.name}.${_.lowerFirst(Type.name)} called with something that's not a subclass of Sequelize.Model`);
+      ^
+
+Error: User.belongsTo called with something that's not a subclass of Sequelize.Model
+    at Function.<anonymous> (C:\ASChaves\udemy\JavaScript\projects\nodeapps\node_modules\sequelize\lib\associations\mixin.js:93:13)
+    at Function.Model.associate (C:\ASChaves\udemy\JavaScript\projects\nodeapps\models\user.js:7:19)
+    at Object.keys.forEach.modelName (C:\ASChaves\udemy\JavaScript\projects\nodeapps\models\index.js:18:46)
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (C:\ASChaves\udemy\JavaScript\projects\nodeapps\models\index.js:17:17)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (C:\ASChaves\udemy\JavaScript\projects\nodeapps\routes\index.js:4:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (C:\ASChaves\udemy\JavaScript\projects\nodeapps\app.js:10:15)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+[nodemon] app crashed - waiting for file changes before starting...
+^CDeseja finalizar o arquivo em lotes (S/N)? s
+PS C:\ASChaves\udemy\JavaScript\projects\nodeapps> nodemon start
+[nodemon] 1.18.9
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node start app.js`
+C:\ASChaves\udemy\JavaScript\projects\nodeapps\node_modules\sequelize\lib\associations\mixin.js:93
+      throw new Error(`${source.name}.${_.lowerFirst(Type.name)} called with something that's not a subclass of Sequelize.Model`);
+      ^
+
+Error: User.belongsTo called with something that's not a subclass of Sequelize.Model
+    at Function.<anonymous> (C:\ASChaves\udemy\JavaScript\projects\nodeapps\node_modules\sequelize\lib\associations\mixin.js:93:13)
+    at Function.Model.associate (C:\ASChaves\udemy\JavaScript\projects\nodeapps\models\user.js:7:19)
+    at Object.keys.forEach.modelName (C:\ASChaves\udemy\JavaScript\projects\nodeapps\models\index.js:18:46)
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (C:\ASChaves\udemy\JavaScript\projects\nodeapps\models\index.js:17:17)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (C:\ASChaves\udemy\JavaScript\projects\nodeapps\routes\index.js:4:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (C:\ASChaves\udemy\JavaScript\projects\nodeapps\app.js:10:15)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node start app.js`
+C:\ASChaves\udemy\JavaScript\projects\nodeapps\node_modules\express\lib\router\index.js:458
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\ASChaves\udemy\JavaScript\projects\nodeapps\node_modules\express\lib\router\index.js:458:13)    at Function.<anonymous> (C:\ASChaves\udemy\JavaScript\projects\nodeapps\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\ASChaves\udemy\JavaScript\projects\nodeapps\node_modules\express\lib\application.js:217:7)
+    at Object.<anonymous> (C:\ASChaves\udemy\JavaScript\projects\nodeapps\app.js:11:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+PS C:\ASChaves\udemy\JavaScript\projects\nodeapps> nodemon start
+[nodemon] 1.18.9
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node start app.js`
+C:\ASChaves\udemy\JavaScript\projects\nodeapps\node_modules\express\lib\router\index.js:458
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\ASChaves\udemy\JavaScript\projects\nodeapps\node_modules\express\lib\router\index.js:458:13)    at Function.<anonymous> (C:\ASChaves\udemy\JavaScript\projects\nodeapps\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\ASChaves\udemy\JavaScript\projects\nodeapps\node_modules\express\lib\application.js:217:7)
+    at Object.<anonymous> (C:\ASChaves\udemy\JavaScript\projects\nodeapps\app.js:11:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node start app.js`
+C:\ASChaves\udemy\JavaScript\projects\nodeapps\node_modules\express\lib\router\index.js:458
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\ASChaves\udemy\JavaScript\projects\nodeapps\node_modules\express\lib\router\index.js:458:13)    at Function.<anonymous> (C:\ASChaves\udemy\JavaScript\projects\nodeapps\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\ASChaves\udemy\JavaScript\projects\nodeapps\node_modules\express\lib\application.js:217:7)
+    at Object.<anonymous> (C:\ASChaves\udemy\JavaScript\projects\nodeapps\app.js:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+PS C:\ASChaves\udemy\JavaScript\projects\nodeapps> nodemon start
+[nodemon] 1.18.9
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node start app.js`
+C:\ASChaves\udemy\JavaScript\projects\nodeapps\node_modules\express\lib\application.js:124
+      throw new Error('\'app.router\' is deprecated!\nPlease see the 3.x to 4.x migration guide for details on how to update your app.');
+      ^
+
+Error: 'app.router' is deprecated!
+Please see the 3.x to 4.x migration guide for details on how to update your app.
+    at Function.get (C:\ASChaves\udemy\JavaScript\projects\nodeapps\node_modules\express\lib\application.js:124:13)
+    at Object.<anonymous> (C:\ASChaves\udemy\JavaScript\projects\nodeapps\app.js:14:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node start app.js`
+C:\ASChaves\udemy\JavaScript\projects\nodeapps\node_modules\express\lib\router\route.js:202
+        throw new Error(msg);
+        ^
+
+Error: Route.get() requires a callback function but got a [object Object]
+    at Route.(anonymous function) [as get] (C:\ASChaves\udemy\JavaScript\projects\nodeapps\node_modules\express\lib\router\route.js:202:15)
+    at Function.app.(anonymous function) [as get] (C:\ASChaves\udemy\JavaScript\projects\nodeapps\node_modules\express\lib\application.js:482:19)
+    at Object.<anonymous> (C:\ASChaves\udemy\JavaScript\projects\nodeapps\app.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+[nodemon] app crashed - waiting for file changes before starting...
+^CDeseja finalizar o arquivo em lotes (S/N)? s
+PS C:\ASChaves\udemy\JavaScript\projects\nodeapps> nodemon start
+[nodemon] 1.18.9
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node start app.js`
+C:\ASChaves\udemy\JavaScript\projects\nodeapps\node_modules\express\lib\router\route.js:202
+        throw new Error(msg);
+        ^
+
+Error: Route.get() requires a callback function but got a [object Object]
+    at Route.(anonymous function) [as get] (C:\ASChaves\udemy\JavaScript\projects\nodeapps\node_modules\express\lib\router\route.js:202:15)
+    at Function.app.(anonymous function) [as get] (C:\ASChaves\udemy\JavaScript\projects\nodeapps\node_modules\express\lib\application.js:482:19)
+    at Object.<anonymous> (C:\ASChaves\udemy\JavaScript\projects\nodeapps\app.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+PS C:\ASChaves\udemy\JavaScript\projects\nodeapps> nodemon start
+[nodemon] 1.18.9
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node start app.js`
+C:\ASChaves\udemy\JavaScript\projects\nodeapps\node_modules\express\lib\router\route.js:202
+        throw new Error(msg);
+        ^
+
+Error: Route.get() requires a callback function but got a [object Object]
+    at Route.(anonymous function) [as get] (C:\ASChaves\udemy\JavaScript\projects\nodeapps\node_modules\express\lib\router\route.js:202:15)
+    at Function.app.(anonymous function) [as get] (C:\ASChaves\udemy\JavaScript\projects\nodeapps\node_modules\express\lib\application.js:482:19)
+    at Object.<anonymous> (C:\ASChaves\udemy\JavaScript\projects\nodeapps\app.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+PS C:\ASChaves\udemy\JavaScript\projects\nodeapps> nodemon start
+[nodemon] 1.18.9
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node start app.js`
+Listening on port 8000!
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node start app.js`
+Listening on port 8000!
+[nodemon] restarting due to changes...
+[nodemon] starting `node start app.js`
+C:\ASChaves\udemy\JavaScript\projects\nodeapps\app.js:17
+index.initialize(app)
+      ^
+
+TypeError: index.initialize is not a function
+    at Object.<anonymous> (C:\ASChaves\udemy\JavaScript\projects\nodeapps\app.js:17:7)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3).js:585:3)                                               er.js:831:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)                                            2:3)
+    at startup (internal/bootstrap/node.js:283:19)       tarting...
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node start app.js`
+Listening on port 8000!
