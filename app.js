@@ -11,7 +11,9 @@ app.use(bodyParser.json())
 const index = require('./routes')
 //const index = require('./routes/index')
 //app.use('/', index)
-app.get('/', index)
+app.get('/', (req, res)=>{
+    index
+})
 //index.initialize(app)
 
 
